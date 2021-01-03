@@ -1,0 +1,108 @@
+.my_local_map_div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+
+  .my_local_map {
+    height: 100vh;
+    width: 100vw;
+  }
+}
+.location_card {
+  .at-input input {
+    z-index: 0;
+  }
+  position: absolute;
+  bottom: 100px;
+  width: 690px;
+  margin-left: 30px;
+  .input_row {
+    display: flex;
+    align-items: center;
+    .input_row_1 {
+      flex: 1;
+    }
+    image {
+      width: 50px;
+      height: 50px;
+    }
+  }
+}
+.bottom_tab_div {
+  background-color: #ffffff;
+  width: 100vw;
+  position: fixed;
+  bottom: 0;
+
+  .bottom_tab {
+    border-top: 1px solid #d8d8d8;
+    display: flex;
+    align-items: center;
+    .left_div {
+      flex: 1;
+      display: flex;
+      font-size: 46px;
+      color: #333;
+      align-items: center;
+      .tip {
+        font-weight: 600;
+        margin: 0 20px;
+      }
+      .price {
+        color: #ff3f20;
+      }
+      .look_more {
+        font-size: 26px;
+        margin-right: 30px;
+        color: #999;
+        .look_more_icon {
+          font-size: 26px !important;
+          color: #999 !important;
+        }
+      }
+    }
+    .send_btn {
+      background: #fecb2e;
+    }
+  }
+  .myview {
+    width: 100%;
+    height: 0;
+    // background: blue;
+    transition: height 0.5s;
+    // position: absolute;
+
+    .myview_inner {
+      z-index: 1;
+      display: none;
+      .myview_inner_title {
+        text-align: center;
+        font-size: 30px;
+        padding: 20px 0;
+      }
+      .item-content__info-title {
+        font-size: 24px;
+      }
+      .item-extra__info {
+        font-size: 24px;
+      }
+    }
+  }
+  .myview.active {
+    height: 260px;
+    // height: 100vh;
+    .myview_inner {
+      display: block;
+    }
+  }
+}
+.modal_over {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.3);
+  z-index: 0;
+}
