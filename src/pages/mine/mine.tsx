@@ -54,7 +54,14 @@ export default function Mine() {
           arrow="right"
           thumb={feedPng}
         /> */}
-        <AtListItem title="关于小气" arrow="right" thumb={aboutPng} />
+        <AtListItem
+          onClick={() => {
+            Taro.navigateTo({ url: "/pages/aboutus/aboutus" });
+          }}
+          title="关于小气"
+          arrow="right"
+          thumb={aboutPng}
+        />
       </AtList>
     </View>
   );

@@ -4,7 +4,9 @@ export default {
     "pages/order/order",
     "pages/mine/mine",
     "pages/redpacket/redpacket",
-    "pages/kefu/kefu"
+    "pages/kefu/kefu",
+    "pages/questiondetail/questiondetail",
+    "pages/aboutus/aboutus"
   ],
   window: {
     backgroundTextStyle: "light",

@@ -50,16 +50,58 @@ export default function KeFu() {
       </View>
       <View className="questions_title">常见问题</View>
       <AtList>
-        <AtListItem title="配送的问题" arrow="right" />
         <AtListItem
           onClick={() => {
-            Taro.navigateTo({ url: "/pages/redpacket/redpacket" });
+            Taro.navigateTo({
+              url:
+                "/pages/questiondetail/questiondetail?title=" +
+                "配送的问题" +
+                "&question=" +
+                "< div > Q:怎么回事?</br>A:这么回事</div>"
+            });
+          }}
+          title="配送的问题"
+          arrow="right"
+        />
+        <AtListItem
+          onClick={() => {
+            Taro.navigateTo({
+              url:
+                "/pages/questiondetail/questiondetail?title=" +
+                "订单的问题" +
+                "&question=" +
+                "< div > Q:怎么回事?</br>A:这么回事</div>"
+            });
           }}
           title="订单的问题"
           arrow="right"
         />
-        <AtListItem title="红包/优惠券的问题" arrow="right" />
-        <AtListItem title="退款问题" arrow="right" />
+        <AtListItem
+          onClick={() => {
+            Taro.navigateTo({
+              url:
+                "/pages/questiondetail/questiondetail?title=" +
+                "红包/优惠券的问题" +
+                "&question=" +
+                "< div > Q:怎么回事?</br>A:这么回事</div>"
+            });
+          }}
+          title="红包/优惠券的问题"
+          arrow="right"
+        />
+        <AtListItem
+          onClick={() => {
+            Taro.navigateTo({
+              url:
+                "/pages/questiondetail/questiondetail?title=" +
+                "退款问题" +
+                "&question=" +
+                "< div > Q:怎么回事?</br>A:这么回事</div>"
+            });
+          }}
+          title="退款问题"
+          arrow="right"
+        />
       </AtList>
     </View>
   );
