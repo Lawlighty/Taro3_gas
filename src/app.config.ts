@@ -6,7 +6,8 @@ export default {
     "pages/redpacket/redpacket",
     "pages/kefu/kefu",
     "pages/questiondetail/questiondetail",
-    "pages/aboutus/aboutus"
+    "pages/aboutus/aboutus",
+    "pages/address/address"
   ],
   window: {
     backgroundTextStyle: "light",
@@ -20,7 +21,7 @@ export default {
     color: "#666666",
     selectedColor: "#000000",
     backgroundColor: "#FBFBFB",
-    borderStyle: "white",
+    borderStyle: "black",
     list: [
       {
         pagePath: "pages/index/index",
