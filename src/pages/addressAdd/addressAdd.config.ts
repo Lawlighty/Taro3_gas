@@ -1,4 +1,4 @@
 export default {
-  navigationBarTitleText: "关于我们",
+  navigationBarTitleText: "取件地址",
   enablePullDownRefresh: false
 };

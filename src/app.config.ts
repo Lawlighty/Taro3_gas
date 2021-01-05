@@ -7,7 +7,8 @@ export default {
     "pages/kefu/kefu",
     "pages/questiondetail/questiondetail",
     "pages/aboutus/aboutus",
-    "pages/address/address"
+    "pages/address/address",
+    "pages/addressAdd/addressAdd"
   ],
   window: {
     backgroundTextStyle: "light",

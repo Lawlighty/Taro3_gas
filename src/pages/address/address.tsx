@@ -19,15 +19,23 @@ export default function Address() {
                 <AtTag
                   size="small"
                   className={
-                    index % 3 === 0
+                    index % 4 === 0
                       ? "tag_g"
-                      : index % 2 === 0
+                      : index % 3 === 0
                       ? "tag_b"
+                      : index % 2 === 0
+                      ? "tag_p"
                       : "tag_y"
                   }
                   active
                 >
-                  {index % 3 === 0 ? "学校" : index % 2 === 0 ? "公司" : "家"}
+                  {index % 4 === 0
+                    ? "自己"
+                    : index % 3 === 0
+                    ? "父母"
+                    : index % 2 === 0
+                    ? "公婆"
+                    : "爷奶"}
                 </AtTag>
               </View>
               <View className="left_item_bottom">

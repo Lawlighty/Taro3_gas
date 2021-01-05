@@ -27,11 +27,11 @@ export default function Mine() {
           arrow="right"
           thumb="https://img12.360buyimg.com/jdphoto/s72x72_jfs/t6160/14/2008729947/2754/7d512a86/595c3aeeNa89ddf71.png"
         />
-        <AtListItem
+        {/* <AtListItem
           title="我的账单"
           arrow="right"
           thumb="http://img10.360buyimg.com/jdphoto/s72x72_jfs/t5872/209/5240187906/2872/8fa98cd/595c3b2aN4155b931.png"
-        />
+        /> */}
         <AtListItem
           onClick={() => {
             Taro.navigateTo({ url: "/pages/address/address" });

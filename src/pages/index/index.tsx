@@ -95,6 +95,9 @@ const Index = () => {
               onChange={e => {
                 setAddress(e);
               }}
+              onFocus={() => {
+                Taro.navigateTo({ url: "/pages/addressAdd/addressAdd" });
+              }}
             />
             <Image src={userPng} />
           </View>
