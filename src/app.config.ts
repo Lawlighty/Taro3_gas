@@ -8,7 +8,9 @@ export default {
     "pages/questiondetail/questiondetail",
     "pages/aboutus/aboutus",
     "pages/address/address",
-    "pages/addressAdd/addressAdd"
+    "pages/addressAdd/addressAdd",
+    "pages/addressChose/addressChose",
+    "pages/addressCity/addressCity"
   ],
   window: {
     backgroundTextStyle: "light",

@@ -1,0 +1,57 @@
+.page {
+  padding: 0 20px;
+
+  .header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .area {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      .txt {
+        margin-right: 10px;
+      }
+    }
+    .search {
+      flex: 1;
+    }
+  }
+  .area_points {
+    position: relative;
+    // top: -1px;
+    background: #fff;
+
+    padding-top: 20px;
+    font-size: 28px;
+    // font-weight: 600;
+    color: #333;
+    .item {
+      // display: flex;
+      // align-items: center;
+      border-bottom: 1px solid #d8d8d8;
+      .title {
+        padding: 20px 0 0 0;
+      }
+      .detail {
+        padding: 10px 0 20px 0;
+        font-size: 24px;
+        // font-weight: 600;
+        color: #999;
+      }
+    }
+  }
+  .at-search-bar {
+    &:after {
+      border-bottom-width: 0px;
+    }
+  }
+  // .at-search-bar {
+  //   & :after {
+  //     border-bottom-width: 0 !important;
+  //   }
+  // }
+  .at-search-bar__action {
+    background-color: #fecb2e;
+  }
+}

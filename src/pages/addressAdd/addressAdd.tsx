@@ -49,10 +49,22 @@ export default function Address() {
       <View className="page">
         <View className="items border_b">
           <View className="title">地址</View>
-          <View className="info">
+          <View
+            className="info"
+            onClick={() => {
+              console.log("去选择地址");
+              Taro.navigateTo({ url: "/pages/addressChose/addressChose" });
+            }}
+          >
             <Text>科贸中心</Text>
           </View>
-          <View className="icon">
+          <View
+            className="icon"
+            onClick={() => {
+              console.log("去选择地址");
+              Taro.navigateTo({ url: "/pages/addressChose/addressChose" });
+            }}
+          >
             <AtIcon value="chevron-right" size="20" color="#999"></AtIcon>
           </View>
         </View>
